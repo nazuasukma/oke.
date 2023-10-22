@@ -1,0 +1,60 @@
+
+body {
+    background-image: url(https://i.pinimg.com/564x/81/e7/e0/81e7e0be233e6680b6f259682c2072d3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+       }
+h1 {
+        font-size: 65px;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(176, 112, 225), 0 0 5px rgb(88, 0, 139);
+        background-color:aliceblue ;
+        padding: 10px;
+         }
+h2 {
+        background-color: rgb(142, 79, 142);
+        text-align: center;
+        font-size: 35px;
+        padding: 10px;
+    }
+h1, h2 {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+    }
+p {
+        color: white; 
+        font-family: verdana;
+        font-size: 15px;
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 2px;
+        padding: 30px;
+        outline-width: 10px;
+        }
+.container {
+        width: 950px;
+        margin : 20px auto;
+        font-family: serif;
+            }
+#def {
+  outline-color: purple;
+  outline-style: dashed;
+  background-color: rgb(238, 163, 226);
+      }
+/*Ini adalah isinya*/
+#tangled {
+  outline-color: rgb(107, 8, 82);
+  outline-style:dotted;
+  background-color: rgb(224, 121, 207);
+      }
+#snowwhite{
+  outline-color: rgb(105, 0, 79);
+  outline-style:double;
+  background-color: rgb(202, 141, 193);
+}
+#moana {
+  outline-color: rgb(87, 62, 81);
+  outline-style:solid;
+  background-color: rgb(210, 86, 191);
+}

@@ -1,0 +1,158 @@
+:root{
+    --green: rgb(76, 149, 108); 
+  } 
+  
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+  }
+  body{
+    background-color: rgb(254, 254, 227);
+  }
+  html{
+    font-size: 62.5%;
+  }
+  
+  header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: rgb(44, 110, 73);
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  
+  }
+  
+  header .logo {
+    font-size: 3rem;
+    color:rgb(255, 201, 185);
+    font-weight: bolder;
+  }
+  
+  header .logo span{
+    color:rgb(254, 254, 227);
+  }
+  
+  
+  header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color:rgb(214, 140, 69);
+  }
+  
+  header .navbar a:hover{
+    color: rgb(254, 254, 227);
+  }
+  
+  header .icons a{
+    font-size: 3rem;
+    color: rgb(214, 140, 69);
+    margin-left: 1.5rem;
+  }
+  
+  header .icons a:hover{
+    color: rgb(254, 254, 227);
+  }
+
+    
+  header #toggler{
+    display: none;
+  }
+  
+  header #toggler{
+    display: none;
+  }
+  
+  header .fa-bars{
+    display: none;
+  }
+
+ .container {
+  width: 960px;
+  margin: 50px auto;
+  background-color: rgb(255, 201, 185);
+  color:rgb(44, 110, 73);
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+.header {
+  padding: 50px;
+}
+.header h1{
+  font-size: 50px;
+  text-align: center;
+}
+.header p{
+  margin-top: 20px;
+}
+
+.foto {
+  height: 400px;
+  background-image:url(Images/strawberry-muffins.jpg);
+  background-size: cover;
+}
+
+.paragraf{
+  padding: 50px;
+  margin: 70px;
+  border: 2px solid rgb(214, 140, 69);
+  outline-style: double;
+}
+.paragraf h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  ul.a {
+    list-style-type: circle;
+  }
+  .ingredient h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+.ingredient table{
+    border-collapse: collapse;
+    padding: 50px;
+    margin: 50px auto;
+    width: 50%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid rgb(214, 140, 69);
+  }
+
+  .directions{
+    padding: 50px;
+    
+  }
+  .directions h2{
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:rgb(76, 149, 108);
+      color:rgb(255, 201, 185) ;
+      text-align: center;
+      
+   }
+    
+
+  

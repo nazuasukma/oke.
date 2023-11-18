@@ -680,8 +680,6 @@ th, td {
   border-radius: 8rem;
 }
 
-
-
 /*media queries */
 
 /* laptop */
@@ -722,8 +720,6 @@ th, td {
     margin: 3rem;
     text-align: center;
 }
-
-
 .navbar .navbar-nav a:hover{
     color: var(--four-color);
     font-size: 1.6rem;
@@ -760,7 +756,6 @@ th, td {
   html{
     font-size: 62.5%;
   }
-  
 }
 
 /* hp */
@@ -768,7 +763,6 @@ th, td {
   html{
     font-size: 50%;
   }
-
   .heading{
    font-size: 3rem; 
   }
